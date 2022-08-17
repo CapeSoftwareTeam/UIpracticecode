@@ -1,0 +1,65 @@
+#Reg-form{
+    margin-top: 150px;
+    margin-left: 38%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+ form:hover{
+    box-shadow: 0px 0px 20px 0px red;
+} 
+#register{
+    height: 530px;
+    width: 320px;
+    color:black;
+    border: 1px solid black;
+    border-radius:40px;
+    padding: 10px 10px 30px 20px;
+    background-image:linear-gradient(lightgrey,purple);
+    opacity:0.8;
+  
+}
+form label{
+    display: block;
+}
+form input{
+    width:300px;
+    border-radius: 10px;
+    height: 30px;
+}
+form h2{
+    text-align: center;
+    color:rgb(55, 0, 255);
+}
+form #btn-submit {
+    width:100px;
+    height:30px;
+    margin-left: 33%;
+    text-align: center;
+    color: white;
+    background-color:black;
+    margin-top: 30px;
+    border-style:solid;
+    border-radius: 5px;
+}
+body{
+    background-image:url("background.jpg") ;
+    align-items: center;
+    justify-content: center;
+}
+ #btn-submit:hover{
+    border-color:white;
+} 
+#reset{
+    width:80px;
+    /* display: block; */
+}
+#reset:hover{
+    background-color:black;
+    color:white;
+}
+select{
+    border-radius: 10px;
+}
+option{
+    border-radius: 5px;
+}
